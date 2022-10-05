@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of children's author Claire Sinagra">
+    <meta name="author" content="Nicholas Salemi">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet"> 
+    <title>Claire Sinagra</title>
+</head>
+<body>
+    <a id="skip" href="#mainContent">Skip to Main Content</a>
+    <header>
+        <div id="logo">
+            <h1>Claire Sinagra</h1>
+        </div>
+        <div id="mainNav">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="#mainContent">
+        <section id="about">
+            <div id="aboutPhoto">
+                <img src="images/Claire-Singara.jpg" alt="Close-up photograph of writer Claire Singara smiling">
+            </div>
+            <div id="aboutContent">
+                <h2>About</h2>
+                <p>Claire lives in the Rocky Mountains with her husband, an exceptionally perfect dog, and an attack cat.</p>
+            </div>
+        </section>
+    
+        <section id="books">
+            <h2>Books</h2>
+            <p>Claire's books have received starred reviews in Publishers Weekly, Library Journal, and Booklist. She is a New York Times and a USA Today bestseller and a RITA® winner.</p>
+            <div id="booksWrapper">
+                <div id="sillySpace">
+                    <h3>Silly Space (2021)</h3>
+                    <img src="images/Sily-Space.jpg" alt="Three minimalist, watercolor-esque planets stacked on top of each other against a galaxy backdrop">
+                    <p>The planets were circling the Sun, staring into space, until suddenly they spot something else in their Solar System. What could it be? Who could it be? The planets have no idea but they're circling to find out.</p>
+                </div>
+        
+                <div id="prettyPlants">
+                    <h3>Pretty Plants (2020)</h3>
+                    <img src="images/Pretty-Plants.jpg" alt="Cartoon birds perched on the branches of a cherry blossom tree">
+                    <p>One tiny dandelion seed wants to hold onto its dandelion home, until the winter wind carries it away. The seed worries it won't be able to find its place in such a vast and frightening world. But everything is much more beautiful than it ever thought, and perhaps finding a new home isn't such a bad thing after all.</p>
+                </div>
+    
+                <div id="happyHello">
+                    <h3>Happy Hello (2019)</h3>
+                    <img src="images/Happy-Hello.jpg" alt="Three cartoon friends similing with their arms around one another.">
+                    <p>Is it possible to find happiness in times of chaos and confusion? Yes! It is possible! Use these practices and techniques and find happiness each day. A workbook/activity book full of interactive fun!</p>
+                </div>
+    
+                <div id="freddysFeelings">
+                    <h3>Freddy's Feelings (2018)</h3>
+                    <img src="images/Freddys-Feelings.jpg" alt="Minimalist cartoon girl with a bob haircut and wearing a green dress">
+                    <p>How to teach kids about emotions and feelings? Like teaching them everything else - using clear words, familiar situations, exciting pictures and a lot of hands-on activities (games, puzzles, coloring pages, etc.).</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+            <p>Get an autographed book at Claire's bookstore events or hear her read her books at library events.</p>
+            
+            <div id="eventsWrapper">
+                <div id="sanDiego" class=eventDivs>
+                    <h3>San Diego</h3>
+                    <p>Saturday, January 8, 2022</p>
+                    <p>11:00 AM - 2:00 PM</p>
+                    <address>
+                        Bob's Bookstore<br>
+                        123 Bob Street<br>
+                        San Diego, CA 89978<br>
+                    </address>
+                    <a href="#">Tickets</a>
+                </div>
+
+                <div id="santaClara" class="eventDivs">
+                    <h3>Santa Clara</h3>
+                    <p>Saturday, January 15, 2022</p>
+                    <p>1:00PM - 4:00 PM</p>
+                    <address>
+                        Barnes & Noble<br>
+                        5678 Books Ave.<br>
+                        Santa Clara, CA 89813<br>
+                    </address>
+                    <a href="#">Tickets</a>
+                </div>
+
+                <div id="santaBarbara" class="eventDivs">
+                    <h3>Santa Barbara</h3>
+                    <p>Saturday, January 21, 2022</p>
+                    <p>9:00AM - 10:30 AM</p>
+                    <address>
+                        Santa Barbara Library<br>
+                        286 Main Street<br>
+                        Santa Barbara, CA 89173<br>
+                    </address>
+                    <a href="#">Tickets</a>
+                </div>
+                <div id="sanFrancisco" class="eventDivs">
+                    <h3>San Francisco</h3>
+                    <p>Saturday, January 28, 2022</p>
+                    <p>10:00AM - 11:30 AM</p>
+                    <address>
+                        San Francisco Library<br>
+                        438 Groovy Blvd.<br>
+                        San Francisco, CA 81786<br>
+                    </address>
+                    <a href="#">Tickets</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <h2>Newsletter Sign Up</h2>
+
+            <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+                <div id="nameDiv">
+                    <div id="fNameDiv">
+                        <label for="fName">First Name</label>
+                        <input type="text" id="fName" name="fName" placeholder="First Name">
+                    </div>
+                    <div id="lNameDiv">
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lName" name="lName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div id="emailDiv">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    <input type="submit" id="signUp" value="Sign Up">
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footerDivs">
+            <div id="footerDivOne">
+                <h3>Claire Sinagra</h3>
+    
+                <div id="socialsDiv">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+            <div id ="footerDivTwo">
+                <div id="footerBooksDiv">
+                    <h4>Books</h4>
+                    <ul>
+                        <li><a href="#sillySpace">Silly Space</a></li>
+                        <li><a href="#prettyPlants">Pretty Plants</a></li>
+                        <li><a href="#happyHello">Happy Hello</a></li>
+                        <li><a href="#freddysFeelings">Freddy's Feelings</a></li>
+                    </ul>
+                </div>
+        
+        
+                <div id="footerEventsDiv">
+                    <h4>Events</h4>
+                    <ul>
+                        <li><a href="#sanDiego">San Diego</a></li>
+                        <li><a href="#santaClara">Santa Clara</a></li>
+                        <li><a href="#santaBarbara">Santa Barbara</a></li>
+                        <li><a href="#sanFrancisco">San Francisco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <small>Copyright &#169; 2022 Claire Sinagra, Inc.</small>
+    </footer>
+</body>
+</html>
